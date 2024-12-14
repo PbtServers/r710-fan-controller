@@ -6,12 +6,12 @@ hosts:
   - name: MyLocalHost
     hysteresis: 0
     temperatures:
-      - 40
+      - 30
       - 50
       - 60
     speeds:
-      - 20
       - 25
+      - 30
       - 35
 
   #- name: MyRemoteHost
