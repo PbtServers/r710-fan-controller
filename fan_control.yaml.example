@@ -4,15 +4,17 @@ general:
 
 hosts:
   - name: MyLocalHost
-    hysteresis: 3
+    hysteresis: 0
     temperatures:
-      - 32
-      - 37
-      - 55
+      - 30
+      - 40
+      - 50
+      - 60
     speeds:
-      - 9
-      - 10
       - 15
+      - 20
+      - 25
+      - 35
 
   #- name: MyRemoteHost
   #  remote_temperature_command: ssh myuser@myhost 'sysctl -a | grep -E "cpu\.[0-9]+\.temp" | grep -E -o "[0-9]+\.[0-9]+"' # must return a newline-delimited list of floats
