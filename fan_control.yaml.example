@@ -6,12 +6,10 @@ hosts:
   - name: MyLocalHost
     hysteresis: 0
     temperatures:
-      - 30
       - 40
       - 50
       - 60
     speeds:
-      - 15
       - 20
       - 25
       - 35
